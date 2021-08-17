@@ -1,11 +1,11 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::get('greeting', function () {
-    return 'Hi, this is your awesome package! rwra';
-});
+// Route::get('greeting', function () {
+//     return 'Hi, this is your awesome package! rwra';
+// });
 
-Route::get('Lara/test', 'EdgeWizz\Lara\Controllers\LaraController@test')->name('test');
+// Route::get('Lara/test', 'EdgeWizz\Lara\Controllers\LaraController@test')->name('test');
 
 Route::post('fmt/lara/store', 'EdgeWizz\Lara\Controllers\LaraController@store')->name('fmt.lara.store');
 
